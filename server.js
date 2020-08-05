@@ -19,7 +19,7 @@ app.use(express.static('website'));
 
 
 // Setup Server
-const port = 8000;
+const port = 8080;
 
 const server= app.listen(port, listening);
 
@@ -39,13 +39,16 @@ app.get('/all',function(req,res){
 app.post('/add',addData);
 
 function addData(req,res){
+
    const newData={
-        temp: req.body.temp,
         date:req.body.date,
+        temp: req.body.temp,
         content:req.body.content,
     };
-    projectData.temp = newData.temp;
     projectData.date = newData.date;
+    projectData.temp = newData.temp;
     projectData.content = newData.content;
+    
     console.log(projectData);
+    
 }

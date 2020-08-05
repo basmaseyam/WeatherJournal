@@ -1,10 +1,35 @@
-# Weather-Journal App Project
+Weather Journal App
+Posting weather information to user using the weather journal API and the location Zip code
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+Getting Started
+Download the package files to your local machine and use command line to start server : 
+1- go to the required directory
+2- write 'node server.js'
+3- Open http://localhost:8080
+4- Fill the required fields and click on generate.
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+Prerequisites
+*install node.js and npm.
+* Express, Cors, body-parser libraries
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+
+Give an example
+Deployment
+Add additional notes about how to deploy this on a live system
+
+Built With
+Node.js
+javascript
+Express
+Cors
+body-parser
+
+Versioning
+For the versions available, see the tags on this repository.
+
+Authors
+Basma Seyam
+
+License
+This project is for Web Development Professional course in udacity
+
